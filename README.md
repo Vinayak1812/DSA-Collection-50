@@ -1,18 +1,21 @@
-DSA - Collections
-Arraylist 
-Map
-Set
-LinkedIn List
+Q1 : What is an array? How is it stored in memory?
+Ans : An array is a data structure that stores a collection of elements, all of the same type (e.g., integers, floating-point numbers, characters). It organizes data in contiguous memory locations, making it efficient to access and manipulate elements using their index.
+Key Characteristics of an Array:
+Fixed Size: Arrays have a predetermined number of elements (its size), which cannot change after declaration.
+Index-Based: Each element in the array can be accessed by its index, starting from 0 for the first element.
+Homogeneous Elements: All elements must be of the same data type.
+How Is It Stored in Memory?
+Contiguous Memory Locations: The elements of an array are stored in adjacent memory addresses.
+Base Address: The address of the first element (index 0) serves as the base address. The subsequent elements are placed at offsets based on their size.
+Address Calculation: The address of an element can be calculated using:
+Address = Base Address+(Index×Size of Each Element)
 
-Subject: Request for Course Certification
 
-Dear HR,
+Q2 : How do you find the largest element in an array?
+Ans : Via Linear Search : O(n)
+      Via Sorting  : O(n log n)
+      via divide and conqure method (
+      via build in function 
 
-I hope you’re doing well. I’ve completed the Maximizing Success: Mastering the Art of Goal Setting on Coursera, as assigned by the company, within the 15-day timeline. I’ve also prepared the required notes and tasks.
-
-However, to submit the course certificate, I need to purchase it, and I currently can’t afford the cost. I kindly request the company to sponsor this certification for me so that I can meet all the requirements and contribute better with the knowledge I’ve gained.
-
-Thank you for your support. I look forward to hearing from you.
-
-Best regards, 
-Vinayak Padhyavani
+Q3 : Write a program to reverse an array.
+Ans : double pointer 
